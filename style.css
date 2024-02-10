@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+}
+.navbar{
+    display: flex;
+   /* align-items: center;*/
+    padding: 0px;
+    width: 100%;
+}
+nav{
+    background: green;
+    display: block;
+    width: 100%;
+    vertical-align: top;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+li a{
+    
+    text-decoration: none;
+    color: rgb(8, 1, 1);
+    margin-right: 70px;
+    text-align: center;
+}
+/*li a {
+    padding: 14px, 16px;
+    text-align: center;
+}*/
+.hero-image{
+    background-image: url(mos.webp);
+    height: 700px;
+    width: 800p;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mos h1{
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+   
+}
+.li{
+    text-align: center;
+}
+.low{
+    padding: 60px;
+}
+.addy{
+    padding: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+div .gallery img{
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+div .gallery{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.write{
+    text-align: center;
+}
+
+
