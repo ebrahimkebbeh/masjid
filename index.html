@@ -4,51 +4,123 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>masjid</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
     
     </head>
 
     <body>
         <header>
-            <div class="mos">
-            <h1>Mosjid Al Tawba</h1>
-        </div>
+            
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li>
-                            <div class="logo">
-                                <img src="masjid.png" alt="">
+                        <li class="title">
+                             <div class="logo">
+                                <img src="images/masjid.png" alt="">
+                                <div class="mos">
+            <h1 style="">Mosjid Al Tawba</h1>
+            <h1>مسجد التوبة</h1>
+        </div>
                             </div>
                         </li>
                         <div class="li">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">About us</a></li></div>
+                        <li><a href="" class="btn btn-dark btn btn-outline-light">Home</a></li>
+                        <li><a href="contact.html" class="btn btn-dark btn btn-outline-light">Contact</a></li>
+                        <li><a href="about.html" class="btn btn-dark btn btn-outline-light">About us</a></li></div>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div class="hero-image"></div>
+        <!--<div class="hero-image"></div> -->
         </div>
-        <div class="addy"><p>1347 Webster Ave
+        <div class="container">
+        <div class="addy">
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=/maps/place/1347%2BWebster%2BAve,%2BBronx,%2BNY%2B10456/data%3D!4m2!3m1!1s0x89c2f4465c557ef7:0x3618733b89fd7876%3Fsa%3DX%26ved%3D1t:242%26ictx%3D111&ved=2ahUKEwj-n_mdx9mFAxXdElkFHYRFBFcQ8gF6BAgWEAI&usg=AOvVaw3BoAOumAuwZcFfi0dpTlP4">1347 Webster Ave
             Bronx, NY  10456
-            United States</p></div>
+            United States</a>
+            <p></p></div>
             
         <div class="low">
             <div class="gallery">
                 <td>
-            <img src="sujood.jpeg" alt="" width="600px">
-            
+            <img src="images/sujood.jpeg" alt="" width="600px">
+            <div class="head">
             <h1>Goals</h1>
-            <p>Are goal is to praise allah (God) seek the pleasure of Allah and attain paradise in the hereafter. And to <br>
-                build are muslim community and to eductate are chilldren on islam
-         </p>
+            <pre>
+                Are goal is to praise allah (God) seek the 
+                pleasure of Allah and attain paradise in the 
+                hereafter. And to build are muslim community 
+                and to eductate are chilldren on islam
+            </pre></div>
             </td>
-           <img src="stu.webp" alt="">
+           <img src="images/stu.webp" alt="">
        
       </div>
         </div>
-    </body>
+        <div cclass="column">
+            <div class="time">
+                <b>prayer timing</b>
+                <div class="col-sm-" class="dates">
+                <div id="demo" class="date">
+                    <p id="date"></p>
+                    <p id="month"></p>
+                    <p id="day"></p>
+                    <p id="year"></p>
+                </div>
+                <div  class="col-sm-" id="clock"></div>
+            </div>
+        </div>
+            <div>
+            <table>
+                <tbody>
+                    <tr class="AP">
+                        <th></th>
+                        <th>azan</th>
+                        <th>pray</th>
+                    </tr>
+                    <tr>
+                        <span></span>
+                        
+                        <td>fajr</td>
+                        <td><span>4:30 </span></td>
+                        <td><b>6:05 am</b></td>
+                    </tr>
+                    <tr>
+                        <td class="zuhr"><img src="images/suny.png" alt="" srcset="" >zuhr</td>
+                        <td><span>1:00</span></td>
+                        <td><b>1:30</b></td>
+                    </tr>
+                    <tr>
+                        <td>asr</td>
+                        <td><span>4:30</span></td>
+                        <td><b>5:30</b></td>
+                    </tr>
+                    <tr>
+                        <td>maghrib</td>
+                        <td>7:30</td>
+                        <td><b>7:40</b></td>
+                    </tr>
+                    <tr>
+                        <td>isha</td>
+                        <td>8:45</td>
+                        <td><b>9:00</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        <div class="about">
+            <h1>About us</h1>
+            <p>Attawheed Islamic Center (AIC) is located in Carnegie, PA and attracts more than 700 patrons, serving the Muslim Community of West Pittsburgh.  Its serving areas include Carnegie, Heidlerberg, Greentree, Scott Township, Collier Township, Dormont, Mt. Lebanon, Upper St. Clair, South Fayette, North Fayette, Oakdale, Bridgeville, McDonald, Robinson Township, Findlay Township, Moon Township, Baldwin Township, Bethal Park, and other nearby areas. <a href="about.html">more</a></p>
+        </div>
 
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+    
 </html>
+

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            @media screen and (max-width: 600px) {
+  .navbar li {
+    display: none;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+        </style>
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <button class="hamburger">&#9776;</button>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          
+          
+    </body>
+    <script>
+        $(document).ready(function(){
+  $('.hamburger').click(function(){
+    $('ul').toggle();
+  });
+});
+
+    </script>
+</html>
