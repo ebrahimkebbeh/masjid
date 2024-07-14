@@ -1,0 +1,24 @@
+
+
+body{
+    
+}
+header{
+    background-color: greenyellow;
+    padding: 20px;
+}
+.head li{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.mid{
+    margin: auto;
+    padding: 20px;
+}

@@ -40,7 +40,18 @@ const date = document.getElementById("date");
             month.innerHTML = allMonth[today.getMonth()];
             year.innerHTML = today.getFullYear();
 
+//const zuhr = documentSelector("#zuhr")
 
 
+const hour = new Date().getHours();
+let time
+
+if(hour > 1){
+    time = zuhr.style.background = 'red'
+}else{
+    time = asr.style.background = 'red'
+}
+console.log(zuhr.style)
+console.log(asr.style)
 
 
